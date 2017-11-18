@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="insertToDB.php" method="post">
+      <fieldset>
+        <legend>Prisijungimo forma</legend>
+        Vartotojo vardas <br> <input type="text" required name="username" value="Jonas"><br>
+        Slaptažodis <br /> <input type="password" name="slaptazodis" value=""><br>
+        El. paštas <br /> <input type="email" name="slaptazodis" value=""><br>
+        Adresas <br /> <input type="url" name="slaptazodis" value=""><br>
+      </fieldset>
+      <fieldset>
+        <legend>Checkbox</legend>
+        Kokios spalvos jums patinka? <br>
+        Getona : <input type="checkbox" name="colors" value="geltona"><br>
+        Žalia : <input type="checkbox" name="colors" value="zalia"><br>
+        Raudona : <input type="checkbox" name="colors" value="raudona"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Kokia jūsų lytis?</legend>
+        Vyras : <input type="radio" name="gender" value="1"><br>
+        Moteris : <input type="radio" name="gender" value="0"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Komentaras</legend>
+        <textarea name="comment" rows="8" cols="80"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Iš kur apie mus sužinojote?</legend>
+        <select name="source">
+          <option value="google">Google</option>
+          <option value="draugai">Draugai</option>
+          <option value="kita">Kita</option>
+        </select>
+      </fieldset>
+      <input type="submit" name="submit" value="Išsiųsti">
+    </form>
+
+    <input type="button" name="" value="OK">
+    <button type="button" name="button">OK</button>
+
+  </body>
+</html>
