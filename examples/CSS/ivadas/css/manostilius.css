@@ -1,0 +1,84 @@
+/* selektorius */
+@font-face {
+  font-family: "mano";
+  src: url('../Aclonica.ttf');
+}
+*{
+  font-family: mano;
+}
+
+h1{
+  letter-spacing: -10px;
+  color: blue;
+}
+
+p{
+  font-family: Arial, Tahoma, sans-serif;
+  color: red;
+  font-size: 20pt;
+  margin: 0px;
+}
+
+#pirmas{
+  color: green;
+}
+
+p.antras{
+  color:yellow;
+}
+
+h1{
+  color: red;
+  text-shadow: 10px 2px 2px black;
+  width: 50%;
+  min-width: 500px;
+  margin:auto;
+    box-shadow: 2px 2px 2px 2px black;
+
+  border-top-right-radius: 10px;
+}
+h1::first-letter{
+  color: blue;
+}
+
+div p{
+  letter-spacing: 5px;
+}
+
+div p:last-child{
+  color: orange;
+}
+
+table tr:nth-child(2n+1){
+    background-color: red;
+}
+
+h1, h2, p{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+
+  border: 1px solid black;
+}
+
+[class]{
+
+}
+
+[class^="ant"]{
+
+}
+.antras{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:red;
+}
+td{
+  padding-top: 50px;
+}
