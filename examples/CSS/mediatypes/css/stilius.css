@@ -1,0 +1,12 @@
+@media screen and (min-width:500px) {
+  h1{
+    color:red;
+  }
+}
+
+
+@media screen and (max-width:499px) {
+  h1{
+    color:green;
+  }
+}

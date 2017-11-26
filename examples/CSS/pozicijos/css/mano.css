@@ -1,0 +1,18 @@
+div{
+  position: absolute;
+  width: 30px;
+  height: 80px;
+}
+.geltona{
+  background-color: yellow;
+}
+
+.zalia{
+  background-color: green;
+  left: 38px;
+}
+
+.raudona{
+  left: 68px;
+  background-color: red;
+}

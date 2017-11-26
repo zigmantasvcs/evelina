@@ -1,0 +1,25 @@
+div{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  float:left;
+}
+.geltona{
+  background-color: yellow;
+}
+
+.zalia{
+  background-color: green;
+}
+
+.raudona{
+  background-color: red;
+}
+.container{
+  width: 620px;
+  height: 620px;
+}
+.suremeliu{
+  border: 5px dashed black;
+  height: 95%;
+}

@@ -1,0 +1,30 @@
+div{
+  position: fixed;
+  width: 30px;
+  height: 80px;
+}
+.geltona{
+  width: 200px;
+  background-color: yellow;
+  z-index: 9999;
+  border-radius: 100px;
+}
+
+.zalia{
+  background-color: green;
+  left: 30px;
+  top: -80px;
+}
+
+.raudona{
+  left: 60px;
+  top: -160px;
+  background-color: red;
+}
+.tekstas{
+  position: relative;
+  left: 10px;
+  width: 100px;
+  height: 3000px;
+  background-color: purple;
+}
