@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      function assignVar(){
+        var pranesimas = "Sveikas pasauli";
+        return pranesimas;
+      }
+
+      function sudetis(){
+        var x = prompt('Ivesk pirma skaiciu', 0);
+        var y = prompt('Ivesk antra skaiciu', 0);
+
+        if(isNaN(x)){
+          alert(x + ' nera skaicius');
+          return;
+        }
+
+        var xSkaicius = Number(x);
+        var ySkaicius = Number(y);
+        return xSkaicius + ySkaicius;
+      }
+
+      var suma = sudetis();
+
+      if(suma != undefined){
+        console.log('suma lygi ' + suma);
+      }
+
+
+    </script>
+  </body>
+</html>
